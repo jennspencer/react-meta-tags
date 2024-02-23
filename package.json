@@ -8,11 +8,10 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/s-yadav/react-meta-tags"
+    "url": "https://github.com/jennspencer/react-meta-tags"
   },
   "bugs": {
-    "mail": "sudhanshuyadav2@gmail.com",
-    "url": "https://github.com/s-yadav/react-meta-tags/issues"
+    "url": "https://github.com/jennspencer/react-meta-tags/issues"
   },
   "keywords": [
     "react-component",

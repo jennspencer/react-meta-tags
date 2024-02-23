@@ -1,8 +1,8 @@
 /**
- * react-meta-tags - 1.0.1
+ * @jennspencer/react-meta-tags - 0.0.1
  * Author : Sudhanshu Yadav
- * Copyright (c) 2016, 2020 to Sudhanshu Yadav, released under the MIT license.
- * https://github.com/s-yadav/react-meta-tags
+ * Copyright (c) 2016, 2024 to Sudhanshu Yadav, released under the MIT license.
+ * https://github.com/jennspencer/react-meta-tags
  */
 
 (function (global, factory) {
@@ -174,7 +174,7 @@
     if (childrens.length === undefined) childrens = [childrens];
 
     for (var i = 0, ln = childrens.length; i < ln; i++) {
-      parent.removeChild(childrens[i]);
+      if (parent.contains(childrens[i])) parent.removeChild(childrens[i]);
     }
   }
 

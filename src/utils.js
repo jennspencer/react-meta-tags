@@ -123,6 +123,6 @@ export function appendChild(parent, childrens) {
 export function removeChild(parent, childrens) {
   if (childrens.length === undefined) childrens = [childrens];
   for (let i = 0, ln = childrens.length; i < ln; i++) {
-    parent.removeChild(childrens[i]);
+    if (parent.contains(childrens[i])) parent.removeChild(childrens[i]);
   }
 }
